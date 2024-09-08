@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:emojis": "vite-node ./js/lib/generate_emoji_json.ts -- run"
+  },
+	"dependencies": {
+		"markdown-it-emoji": "^3.0.0",
+		"vite-node": "^2.0.5"
+	}
+}
