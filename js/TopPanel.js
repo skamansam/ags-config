@@ -12,6 +12,8 @@ import { SysMonitors } from "./widgets/SysMonitors.js";
 import { Volume } from "./widgets/Volume.js";
 import { Workspaces } from "./widgets/Workspaces.js";
 
+
+// This is the central config object for the top panel
 const layout = {
   left: [Workspaces(), AppTitle()],
   center: [
