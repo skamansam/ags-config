@@ -1,18 +1,48 @@
 {
+  "exclude": [
+    "dist",
+    "build",
+    "coverage",
+    "test",
+    "tests",
+    "spec",
+    "specs",
+    "tmp",
+    "temp",
+    "scripts",
+    "bin",
+    "tools",
+    "doc",
+    "docs",
+    "typings",
+    "flow-typed",
+    "out-tsc",
+    "out-tsc-e2e",
+    "e2e",
+    "example",
+    "examples",
+    "sample",
+    "samples",
+    "demo",
+    "demos",
+    "test.ts",
+    "tests.ts",
+    "spec.ts",
+    "specs.ts",
+    "tmp.ts",
+    "temp.ts",
+    "scripts.ts"
+  ],
   "compilerOptions": {
     "target": "ES2022",
     "module": "ES2022",
-    "lib": [
-      "ES2022"
-    ],
+    "lib": ["ES2022"],
     "allowJs": true,
     "checkJs": true,
     "strict": true,
     "noImplicitAny": false,
     "baseUrl": ".",
-    "typeRoots": [
-      "./types"
-    ],
+    "typeRoots": ["./types"],
     "skipLibCheck": true
   }
 }

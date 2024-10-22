@@ -6,12 +6,11 @@ import { Bluetooth } from "./widgets/Bluetooth.js";
 import { Clock } from "./widgets/Clock.js";
 import { GPUMonitor } from "./widgets/GPUMonitor.js";
 import { Media } from "./widgets/Media.js";
-import { Notification } from "./widgets/Notification.js";
+// import { Notification } from "./widgets/Notification.js";
 import { SysTray } from "./widgets/SysTray.js";
 import { SysMonitors } from "./widgets/SysMonitors.js";
 import { Volume } from "./widgets/Volume.js";
 import { Workspaces } from "./widgets/Workspaces.js";
-
 
 // This is the central config object for the top panel
 const layout = {
